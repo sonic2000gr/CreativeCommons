@@ -1,0 +1,38 @@
+%
+% CC 4.0 License translation test file
+% Translated by: Manolis Kiagias
+%
+% Use the `license` folder in your build
+% and include a line like \input{license\license} 
+%
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+%
+\documentclass[a4paper,12pt]{article}
+\usepackage{fontspec,xltxtra,xunicode}
+\usepackage[parfill]{parskip}
+\usepackage{xgreek}
+\usepackage[colorlinks=true,linkcolor=black]{hyperref}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont[Mapping=tex-text]{Times New Roman}
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Liberation Sans}
+\setmonofont[Scale=MatchLowercase]{Liberation Mono}
+\setmainfont[Scale=MatchLowercase]{Liberation Serif}
+%
+% Title page
+%
+\author{Όνομα Συγγραφέα}
+\title {Τίτλος του Έργου}
+\date{ΗΗ/ΜΜ/ΕΕΕΕ}
+%
+%
+\begin{document}
+%
+\maketitle
+%
+\cleardoublepage
+%
+% Creative Commons 4.0 License
+%
+\input {license/license}
+\end{document}
