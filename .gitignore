@@ -5,6 +5,15 @@ ehthumbs.db
 # Folder config file
 Desktop.ini
 
+# Tex build files
+
+main.aux
+main.log
+main.out
+main.toc
+main.pdf
+main.synctex.gz
+
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
